@@ -1,4 +1,4 @@
-Esse codigo é para criar os usuarios do painel:
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -22,6 +22,6 @@ ALTER TABLE `tokens`
 COMMIT;
 
 
-Esse codigo é para criar seu acesso de verificaçao.
+
 
 CREATE TABLE `usuarios` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `login` VARCHAR(255) NOT NULL , `senha` VARCHAR(32) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
